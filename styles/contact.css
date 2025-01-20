@@ -1,0 +1,50 @@
+#Contact {
+  width: 50%;
+  margin: 40px auto; /* Esto centra el elemento horizontalmente */
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label {
+  display: flex;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid #8b0000;
+  border-radius: 5px;
+  color: #8b0000;
+  font-weight: 600;
+}
+input::placeholder,
+textarea::placeholder {
+  font-family: "Montserrat", serif;
+  font-size: 13px;
+  color: #8b0000;
+  font-weight: 600;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: #8b0000;
+  font-weight: 600;
+  color: #f0f8ff;
+}
+
+form button {
+  background-color: #8b0000;
+  color: #f0f8ff;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
