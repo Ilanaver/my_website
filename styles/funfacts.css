@@ -4,24 +4,11 @@
 #funfacts h2 {
   margin: 0;
   padding: 0;
-  line-height: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
-#funfacts ul {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  gap: 20px;
-}
-#funfacts ul li {
-  list-style: none;
-  padding: 15px;
-  border-radius: 15px;
-  font-weight: 500;
-}
-#funfacts ul li:hover {
-  transform: scale(1.1);
-  background-color: rgb(183, 39, 39);
-  color: #f0f8ff;
+#funfacts p{
+  margin-top: 0;
+  font-weight: 600;
+  word-spacing: 5px;
+  line-height: 25px;
 }

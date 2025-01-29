@@ -29,7 +29,7 @@ a{
 .Projects-card:hover{
     background-color: #8b0000;
     color: #f0f8ff;
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 .Projects-card p {
     text-decoration: none;
