@@ -1,6 +1,6 @@
 #Contact {
   width: 50%;
-  margin: 40px auto; /* Esto centra el elemento horizontalmente */
+  margin: 0 auto; /* Esto centra el elemento horizontalmente */
 }
 
 form {

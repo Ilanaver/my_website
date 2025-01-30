@@ -40,7 +40,11 @@ section{
   width: 65%;
   margin: 0 auto; /* Esto centra el elemento horizontalmente */
 }
-
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 @keyframes textGlow {
   0% {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7),

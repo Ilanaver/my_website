@@ -1,82 +1,78 @@
 #Projects {
-  margin: 40px auto;
+  margin: 0 auto;
 }
 #Projects h2 {
 }
 .Projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    column-gap: 25px;
-    row-gap: 25px;
-    grid-auto-rows: minmax(150px, 229px); 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  row-gap: 25px;
+  grid-auto-rows: minmax(150px, 229px);
 }
-a{
-    text-decoration: none;
-    color: #8b0000;
-    font-weight: 600;
+a {
+  text-decoration: none;
+  color: #8b0000;
+  font-weight: 600;
 }
-.Projects-card{
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 20px 0px;
-    border-radius: 15px;
-    border: 3px solid #8b0000;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.Projects-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0px;
+  border-radius: 15px;
+  border: 3px solid #8b0000;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.Projects-card:hover{
-    background-color: #8b0000;
-    color: #f0f8ff;
-    transform: scale(1.07);
+.Projects-card:hover {
+  background-color: #8b0000;
+  color: #f0f8ff;
+  transform: scale(1.07);
 }
 .Projects-card p {
-    text-decoration: none;
-    margin: 0;
-    font-weight: 600;
+  text-decoration: none;
+  margin: 0;
+  font-weight: 600;
 }
 .Projects-card img {
-    border-radius: 15px;
-    width: 80%;
-    height: 120px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  width: 80%;
+  height: 120px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.Money{
-    height: auto !important;
-}
-
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
-}
-    
-
-
-.div3 {
-    grid-column-start: 1;
-    grid-row-start: 2;
+.Money {
+  height: auto !important;
 }
 
-.div4 {
-    grid-column-start: 2;
-    grid-row-start: 2;
+#Projects .parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
 }
 
-.div5 {
-    grid-row: span 3 / span 3;
-    grid-column-start: 3;
-    grid-row-start: 1;
+#Projects .div3 {
+  grid-column-start: 1;
+  grid-row-start: 2;
 }
 
-.div6 {
-    grid-row-start: 3;
+#Projects .div4 {
+  grid-column-start: 2;
+  grid-row-start: 2;
 }
 
-.div7 {
-    grid-row-start: 3;
+#Projects .div5 {
+  grid-row: span 3 / span 3;
+  grid-column-start: 3;
+  grid-row-start: 1;
 }
-        
+
+#Projects .div6 {
+  grid-row-start: 3;
+}
+
+#Projects .div7 {
+  grid-row-start: 3;
+}

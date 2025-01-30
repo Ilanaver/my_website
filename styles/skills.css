@@ -1,0 +1,30 @@
+
+#skills .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 8px;
+}
+#skills .parent div {
+    padding: 5px;
+    border: 4px #660101 solid;
+    background-color: #8b0000;
+    color: #f0f8ff;
+    border-radius: 15px;
+}
+#skills div img {
+    width: 30%;
+}
+#skills .parent div p{
+    width: 100%;
+    font-size: 15px;
+    color: #f0f8ffdf;
+}
+
+
+
+
+
+
+
+        
